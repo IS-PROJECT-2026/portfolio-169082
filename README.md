@@ -6,9 +6,8 @@ systems through a lightweight "process monitor" layout.
 
 ## Live Deployment
 
-https://IS-PROJECT-2026.github.io/portfolio-<your-admission-number>/
+https://is-project-2026.github.io/portfolio-169082/
 
-*(update this link once GitHub Pages is live)*
 
 ## Technologies Used
 
