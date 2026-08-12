@@ -16,6 +16,7 @@ https://IS-PROJECT-2026.github.io/portfolio-<your-admission-number>/
 - CSS3 (custom properties, responsive layout, no framework)
 - Vanilla JavaScript (IntersectionObserver for scroll reveal and active nav state)
 - GitHub Pages for deployment
+- Google Fonts (JetBrains Mono, Inter)
 
 ## Sections
 
