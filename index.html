@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zakiya — Systems &amp; ML Engineering</title>
+<meta name="description" content="Portfolio of Zakiya, final-year Informatics and Computer Science student at Strathmore University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scanline"></div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="#top" class="brand">
+      <span class="brand-dot" aria-hidden="true"></span>
+      <span>zakiya</span>
+    </a>
+    <nav class="nav">
+      <a href="#about">about</a>
+      <a href="#processes">projects</a>
+      <a href="#stack">stack</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">system status</p>
+      <h1 class="hero-name">Zakiya</h1>
+      <p class="hero-role">Final-year Informatics &amp; Computer Science<br>Strathmore University, Kenya</p>
+
+      <div class="status-panel">
+        <div class="status-row">
+          <span class="status-light on" aria-hidden="true"></span>
+          <span class="status-label">STATUS</span>
+          <span class="status-value">open to work and collaboration</span>
+        </div>
+        <div class="status-row">
+          <span class="status-light amber" aria-hidden="true"></span>
+          <span class="status-label">NOW</span>
+          <span class="status-value">building anomaly detection for sales fraud</span>
+        </div>
+        <div class="status-row">
+          <span class="status-light" aria-hidden="true"></span>
+          <span class="status-label">FOCUS</span>
+          <span class="status-value">distributed systems, ML, embedded IoT</span>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#processes" class="btn btn-primary">view projects</a>
+        <a href="#contact" class="btn btn-ghost">get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <p class="section-eyebrow">01 / about</p>
+    <div class="about-grid">
+      <p class="about-lead">
+        I build systems that hold up under real conditions. Most of my work
+        this year sits at the intersection of machine learning and the
+        infrastructure that has to run it reliably, from fraud detection
+        pipelines to sensor networks that cannot afford to go quiet.
+      </p>
+      <p class="about-body">
+        I am completing a BSc in Informatics and Computer Science at
+        Strathmore University's School of Computing and Engineering
+        Sciences, with coursework spanning distributed systems, machine
+        learning, computer simulation and modelling, embedded systems and
+        IoT, and multimedia applications. My capstone project applies
+        unsupervised anomaly detection to sales agent fraud on a live
+        platform, built in partnership with an industry client rather than
+        as a classroom exercise.
+      </p>
+    </div>
+  </section>
+
+  <section id="processes" class="section">
+    <p class="section-eyebrow">02 / running processes</p>
+
+    <article class="process">
+      <div class="process-head">
+        <h3>SalesMesh Fraud Detection</h3>
+      </div>
+      <p class="process-desc">
+        Capstone project built with Webmasters Kenya. Uses unsupervised
+        anomaly detection, Isolation Forest and Local Outlier Factor, to
+        flag fraudulent sales agent behaviour on the SalesMesh platform.
+      </p>
+      <ul class="process-tags">
+        <li>Python</li>
+        <li>Scikit-learn</li>
+        <li>Anomaly Detection</li>
+        <li>System Design</li>
+      </ul>
+    </article>
+
+    <article class="process">
+      <div class="process-head">
+        <h3>Vermiculture Watch</h3>
+      </div>
+      <p class="process-desc">
+        ESP32-based monitoring system for worm-bed conditions, built for a
+        client through an Embedded Systems and IoT course. Reads
+        temperature and moisture in real time and flags conditions that
+        drift outside safe range.
+      </p>
+      <ul class="process-tags">
+        <li>ESP32</li>
+        <li>C++</li>
+        <li>Sensors</li>
+        <li>IoT</li>
+      </ul>
+    </article>
+
+    <article class="process">
+      <div class="process-head">
+        <h3>Swahili4Dyslexia</h3>
+      </div>
+      <p class="process-desc">
+        Web-based learning platform for students with dyslexia, built
+        around structured digital tools that support language learning.
+      </p>
+      <ul class="process-tags">
+        <li>JavaScript</li>
+        <li>Accessibility</li>
+        <li>Web</li>
+      </ul>
+    </article>
+
+    <article class="process">
+      <div class="process-head">
+        <h3>chit-chat</h3>
+      </div>
+      <p class="process-desc">
+        Messaging application built to explore secure communication,
+        covering encryption fundamentals and safe handling of message
+        data.
+      </p>
+      <ul class="process-tags">
+        <li>JavaScript</li>
+        <li>Security</li>
+        <li>Messaging</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="stack" class="section">
+    <p class="section-eyebrow">03 / stack</p>
+    <div class="stack-grid">
+      <div class="stack-group">
+        <h4>Languages</h4>
+        <p>Python, C++, JavaScript, HTML/CSS, SQL</p>
+      </div>
+      <div class="stack-group">
+        <h4>Machine Learning</h4>
+        <p>Scikit-learn, anomaly detection, model evaluation</p>
+      </div>
+      <div class="stack-group">
+        <h4>Systems</h4>
+        <p>Distributed systems, embedded systems, ESP32, simulation and modelling</p>
+      </div>
+      <div class="stack-group">
+        <h4>Tooling</h4>
+        <p>Git, GitHub Actions, draw.io, Linux</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-contact">
+    <p class="section-eyebrow">04 / connect</p>
+    <h2 class="contact-heading">Get in touch.</h2>
+    <div class="contact-links">
+      <a href="mailto:zakiyanoorsalan@gmail.com">email</a>
+      <a href="https://github.com/zakiyanoor" target="_blank" rel="noopener">github</a>
+      <a href="https://www.linkedin.com/in/zakiya-noor-b6a08b332/" target="_blank" rel="noopener">linkedin</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; 2026 Zakiya Noor.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
