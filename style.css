@@ -397,8 +397,8 @@ button:focus-visible {
 
 @media (max-width: 720px) {
   .nav {
-    gap: 16px;
-    font-size: 12px;
+    gap: 12px;
+    font-size: 11px;
   }
 
   .about-grid,
@@ -433,13 +433,13 @@ button:focus-visible {
 
 /* Scroll reveal */
 
-.section {
+html.js .section {
   opacity: 0;
   transform: translateY(16px);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.section.in-view {
+html.js .section.in-view {
   opacity: 1;
   transform: translateY(0);
 }
