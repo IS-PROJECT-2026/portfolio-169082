@@ -253,10 +253,10 @@ button:focus-visible {
 }
 
 .about-lead {
-  font-size: 22px;
-  font-weight: 500;
-  color: var(--text);
-  margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--text);
+    margin: 0;
 }
 
 .about-body {
