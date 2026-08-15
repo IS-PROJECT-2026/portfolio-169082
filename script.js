@@ -1,3 +1,5 @@
+document.documentElement.classList.add('js');
+
 const sections = document.querySelectorAll('.section, .hero');
 const navLinks = document.querySelectorAll('.nav a');
 
